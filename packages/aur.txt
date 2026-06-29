@@ -1,0 +1,17 @@
+# ============================================================================
+#  AUR packages (installed with paru/yay). Each is installed individually and
+#  is NON-FATAL: if one fails to build, the installer logs a warning, keeps
+#  going, and the theming step falls back to a sane default.
+# ============================================================================
+
+# Logout / power menu (grid of buttons)
+wlogout
+
+# Catppuccin Mocha GTK theme (falls back to Adwaita-dark if it fails)
+catppuccin-gtk-theme-mocha
+
+# Bibata cursor theme (falls back to Adwaita cursor if it fails)
+bibata-cursor-theme-bin
+
+# Catppuccin theme for Kvantum (Qt apps); optional polish
+kvantum-theme-catppuccin-git

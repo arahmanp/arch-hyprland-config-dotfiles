@@ -1,0 +1,40 @@
+[Default Applications]
+# Web
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+
+# Files / folders
+inode/directory=thunar.desktop
+
+# Images
+image/png=imv.desktop
+image/jpeg=imv.desktop
+image/gif=imv.desktop
+image/webp=imv.desktop
+image/bmp=imv.desktop
+image/tiff=imv.desktop
+image/svg+xml=imv.desktop
+
+# Video / audio
+video/mp4=mpv.desktop
+video/x-matroska=mpv.desktop
+video/webm=mpv.desktop
+video/x-msvideo=mpv.desktop
+audio/mpeg=mpv.desktop
+audio/flac=mpv.desktop
+audio/x-wav=mpv.desktop
+
+# Documents
+application/pdf=org.gnome.Evince.desktop
+
+# Plain text
+text/plain=org.xfce.mousepad.desktop
+
+[Added Associations]
+image/png=imv.desktop;
+image/jpeg=imv.desktop;
+text/plain=org.xfce.mousepad.desktop;
+application/pdf=org.gnome.Evince.desktop;

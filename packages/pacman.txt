@@ -1,0 +1,135 @@
+# ============================================================================
+#  Official-repository packages (installed with: pacman -S --needed)
+#  Lines starting with '#' and blank lines are ignored by the installer.
+# ============================================================================
+
+# ----- Hyprland core & Wayland session -----
+hyprland
+hyprpaper
+hyprlock
+hypridle
+hyprpolkitagent
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+qt5-wayland
+qt6-wayland
+
+# ----- Bar / launcher / notifications / terminal -----
+waybar
+fuzzel
+swaync
+kitty
+
+# ----- File management -----
+thunar
+thunar-archive-plugin
+thunar-volman
+tumbler
+gvfs
+gvfs-mtp
+file-roller
+
+# ----- Audio (PipeWire stack) -----
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+pavucontrol
+pamixer
+playerctl
+
+# ----- Brightness & on-screen display -----
+brightnessctl
+swayosd
+
+# ----- Screenshots & clipboard -----
+grim
+slurp
+swappy
+wl-clipboard
+cliphist
+
+# ----- Network & Bluetooth -----
+networkmanager
+network-manager-applet
+bluez
+bluez-utils
+blueman
+
+# ----- Login manager (SDDM) + Qt6 deps for the Catppuccin theme -----
+sddm
+qt6-svg
+qt6-declarative
+qt6-5compat
+
+# ----- Intel iGPU drivers & hardware video acceleration (VA-API) -----
+mesa
+vulkan-intel
+intel-media-driver
+libva-utils
+vulkan-tools
+
+# ----- Fonts -----
+ttf-jetbrains-mono-nerd
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
+ttf-font-awesome
+
+# ----- Theming engines & tools -----
+papirus-icon-theme
+nwg-look
+kvantum
+qt5ct
+qt6ct
+
+# ----- Polkit & secrets -----
+polkit
+gnome-keyring
+libsecret
+
+# ----- Everyday applications (a complete desktop out of the box) -----
+firefox
+mpv
+imv
+evince
+mousepad
+
+# ----- Shell & CLI comfort -----
+starship
+eza
+bat
+fzf
+zoxide
+fastfetch
+btop
+ripgrep
+fd
+tree
+wget
+curl
+unzip
+zip
+p7zip
+man-db
+man-pages
+
+# ----- Zsh (oh-my-zsh + powerlevel10k are wired up by the installer) -----
+zsh
+zsh-completions
+zsh-autosuggestions
+zsh-syntax-highlighting
+
+# ----- System utilities -----
+git
+base-devel
+xdg-user-dirs
+xdg-utils
+pacman-contrib
+reflector
+rsync
+imagemagick
+power-profiles-daemon

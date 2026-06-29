@@ -1,0 +1,4 @@
+[General]
+# Set by the installer. If the Catppuccin Kvantum theme isn't installed,
+# Kvantum quietly falls back to its built-in default — Qt apps still look fine.
+theme=Catppuccin-Mocha-Mauve
