@@ -43,14 +43,11 @@ No post-install fiddling — reboot, log in, and everything works.
 > with `sudo`, and a working internet connection. Run as your **user, not root**.
 
 ```bash
-# 1. Get the files onto your Arch machine (git, scp, or USB), then:
-cd arch-hyprland-config
+# 1. Clone the dotfiles + installer from GitHub:
+git clone https://github.com/arahmanp/arch-hyprland-config-dotfiles.git
+cd arch-hyprland-config-dotfiles
 
-# 2. (Only if you copied this from Windows) strip carriage returns:
-#    find . -type f -print0 | xargs -0 sed -i 's/\r$//'
-#    The installer also self-heals line endings, but this fixes install.sh itself.
-
-# 3. Run it:
+# 2. Run it:
 chmod +x install.sh
 ./install.sh
 ```
